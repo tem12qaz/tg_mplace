@@ -1,0 +1,5 @@
+PG_HOST = 'localhost'
+PG_PASSWORD = 'password'
+PG_USER = 'tg_bot'
+PG_DATABASE = 'telegram_marketplace'
+database_uri = f'postgres://{PG_USER}:{PG_PASSWORD}@{PG_HOST}/{PG_DATABASE}'
